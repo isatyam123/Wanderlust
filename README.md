@@ -1,25 +1,33 @@
 # Wanderlust
 
-A full-stack accommodation booking platform inspired by modern travel marketplaces such as Airbnb. Users can explore properties, create listings, upload images, leave reviews, and discover locations through interactive maps.
+A full-stack accommodation booking platform inspired by modern travel marketplaces. Wanderlust enables users to explore destinations, create property listings, upload images, leave reviews, and discover locations through interactive maps.
 
 ## Live Demo
 
-🌐 Live: https://wanderlust-9z3d.onrender.com
+🌐 https://wanderlust-9z3d.onrender.com
 
 ## Features
 
-* User Authentication (Signup/Login/Logout)
-* Secure Session Management with Passport.js
-* Property Listing Management (Create, Read, Update, Delete)
+* User Authentication (Signup, Login, Logout)
+* Secure Session Management using Passport.js
+* Create, Read, Update, and Delete (CRUD) Listings
 * Review and Rating System
-* Cloudinary-based Image Uploads
-* Mapbox Geocoding and Location Search
+* Cloudinary-Based Image Uploads
+* Interactive Location Search using Mapbox
 * MongoDB Atlas Cloud Database
-* Responsive UI with Bootstrap
 * Flash Messages and Error Handling
-* MVC Architecture
+* Responsive User Interface with Bootstrap
+* MVC (Model-View-Controller) Architecture
 
 ## Tech Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* EJS
 
 ### Backend
 
@@ -30,46 +38,56 @@ A full-stack accommodation booking platform inspired by modern travel marketplac
 * Passport.js
 * Express Session
 
-### Frontend
-
-* EJS
-* Bootstrap
-* JavaScript
-* HTML5
-* CSS3
-
 ### Third-Party Services
 
 * Cloudinary
 * Mapbox
 
-## Project Statistics
+## Project Highlights
 
-* 500+ Property Listings Supported
-* Full CRUD Operations for Listings and Reviews
-* Cloud-Based Image Storage
-* Interactive Location Mapping
+* Supports 500+ property listings
+* Full CRUD functionality for listings and reviews
+* Secure authentication and authorization workflows
+* Cloud-based image storage and management
+* Interactive geolocation and mapping services
+* Deployed on a public cloud platform
+
+## Deployment
+
+* Application Hosting: Render
+* Database: MongoDB Atlas
+* Image Storage: Cloudinary
+* Geolocation Services: Mapbox
 
 ## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/isatyam123/Wanderlust.git
 cd Wanderlust
+```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
-Create a `.env` file and add:
+Create a `.env` file in the root directory and add:
 
 ```env
 MONGOATLAS_URL=your_mongodb_connection_string
 SECRET=your_secret_key
+
 CLOUD_NAME=your_cloudinary_name
 CLOUD_API_KEY=your_cloudinary_api_key
 CLOUD_API_SECRET=your_cloudinary_api_secret
+
 MAPBOX_TOKEN=your_mapbox_token
 ```
 
-Run the project:
+Start the application:
 
 ```bash
 node app.js
@@ -83,8 +101,17 @@ http://localhost:8080
 
 ## Architecture
 
-The application follows the MVC (Model-View-Controller) architecture for maintainability and scalability.
+The project follows the MVC (Model-View-Controller) architecture to ensure maintainability, scalability, and separation of concerns.
+
+## Future Enhancements
+
+* Wishlist/Favorites Functionality
+* Advanced Search and Filtering
+* Booking Management System
+* User Profiles
+* Payment Gateway Integration
 
 ## Author
 
-Satyam Kumar
+**Satyam Kumar**
+
